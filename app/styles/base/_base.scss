@@ -1,0 +1,18 @@
+// -------------------------------------------------
+//
+// Body Styles
+// 
+// -------------------------------------------------
+*{
+	box-sizing: border-box;
+}
+
+::selection{
+	background-color: yellow;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	
+}

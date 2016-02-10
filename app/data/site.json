@@ -1,0 +1,39 @@
+{
+	"languages": [
+		{
+			"name": "english",
+			"file": "data/english.md",
+			"intro": "There are certain moments in life when sudden inspiration strikes, the unheard of is spoken out loud, and the inexplicable is understood. Such experiences can divide lives into a ‘before’ and ‘after’. Yadastar have been exploring these very moments since 1998.",
+			"brand": {
+				"title": "Yadastar Brand Consulting:",
+				"message": "In search of the sweet spot uniting brand identity and cultural integrity, we have worked for",
+				"brands": [
+					{
+						"name": "Adidas"
+					},
+					{
+						"name": "Boston Consulting Group"
+					},
+					{
+						"name": "The City of Barcelona"
+					},
+					{
+						"name": "Daimler"
+					},
+					{
+						"name": "Ford"
+					},
+					{
+						"name": "Levi's and T-Mobile amongst others."
+					}
+				]
+			},
+			"subheader": "However, we are probably best known for our longstanding brand consulting, coaching and community marketing work for Red Bull.",
+			"body": "In 1998 Yadastar developed the <strong><a href='http://www.redbullmusicacademy.com'>Red Bull Music Academy</a></strong> and gradually helped build the infrastructure for Red Bull's transformation from a solely sports-driven to a culturally diverse brand with strong roots in music, arts and media. Since then, Yadastar have realised all <strong>seventeen</strong> annual editions of the Academy and have rolled it out internationally to include local workshops, festival stages, radio studios, recording sessions and signature events in more than <strong>60</strong> countries.<br/>Beyond the programming and realisation of the Academy event and its numerous spin-offs, Yadastar have created all Red Bull Music Academy content channels like <strong><a href='http://rbmaradio.com'>Red Bull Music Academy Radio</a></strong>, the Red Bull Music Academy Website, Podcast and Event Guides, and are running their 24/7 editorial offices.<br />Yadastar are also responsible for the global Red Bull Music Academy communication strategy, creation of communication tools and the co-ordination of a worldwide network of ambassadors and media departments.",
+			"postbody": "Technicalities aside, these <strong>seventeen</strong> years have sparked countless magic moments for those who are now considered to be shaping the cultural landscape of our times.",
+			"outro": "We believe that the trigger for these unique moments can be found within every good brand.",
+			"contact": "We belive in true encounters."
+		}
+	]
+	
+}
