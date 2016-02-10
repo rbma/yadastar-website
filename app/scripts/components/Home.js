@@ -22,7 +22,8 @@ const Home = React.createClass({
 
 	propTypes: {
 		changeLanguage: React.PropTypes.func,
-		currentData: React.PropTypes.object
+		currentData: React.PropTypes.object,
+		language: React.PropTypes.string
 	},
 
 
@@ -30,7 +31,6 @@ const Home = React.createClass({
 
 	render: function(){
 
-		console.log(this.props);
 
 		return (
 			<div className="center">
@@ -38,6 +38,7 @@ const Home = React.createClass({
 				<div className="content">
 					<LanguageList
 						changeLanguage={this.props.changeLanguage}
+						language={this.props.language}
 					/>
 					<Intro currentData={this.props.currentData} />
 					<BrandList currentData={this.props.currentData} />

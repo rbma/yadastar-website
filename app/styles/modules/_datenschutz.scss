@@ -1,0 +1,50 @@
+.wp-imprint{
+	width: 870px;
+	margin-left: 103px;
+	.wp-row{
+		position: relative;
+		margin: 20px 0;
+		height: auto;
+		overflow: hidden;
+		display: block;
+		line-height: 20px;
+		&:after{
+			content: '';
+			clear: both;
+		}
+		.col-left{
+			float: left;
+			width: 340px;
+			text-align: right;
+			font-style: italic;
+			display: block;
+			margin: 10px 0;
+			overflow: hidden;
+			p{
+				margin: 0;
+
+			}
+			&:after{
+				content: '';
+				clear: both;
+			}
+		}
+		.col-right{
+			float: right;
+			width: 500px;
+			display: block;
+			margin: 10px 0;
+			overflow: hidden;
+			p{
+				margin: 0;
+			}
+			a{
+				font-weight: bold;
+			}
+			&:after{
+			content: '';
+				clear: both;
+			}
+		}
+	}
+}

@@ -1,14 +1,37 @@
-.wrapper-imprint{
-	position: relative;
-	margin-left: 360px;
-	width: 630px;
-	overflow: hidden;
+// ------------------------------------------------
+// Imprint page
+//
+
+.content{
+	.wrapper-imprint{
+		position: relative;
+		margin-left: 360px;
+		width: 630px;
+		overflow: hidden;
+		margin-bottom: 100px;
+	}
+
+	.imprint-left{
+		float: left;
+		text-align: right;
+		font-style: italic;
+		height: 100%;
+		display: inline;
+		line-height: 21px;
+		p{
+			margin: 0;
+		}
+	}
+	.imprint-right{
+		float: left;
+		width: 500px;
+		line-height: 21px;
+		padding-left: 15px;
+		height: 100%;
+		display: inline;
+		p{
+			margin: 0;
+		}
+	}
 }
 
-.imprint-left{
-	float: left;
-	text-align: right;
-	font-style: italic;
-	height: 100%;
-	display: inline;
-}

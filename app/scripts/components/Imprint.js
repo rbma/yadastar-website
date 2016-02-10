@@ -14,6 +14,8 @@ const Imprint = React.createClass({
 	},
 
 	render: function(){
+
+
 		return (
 			<section className="center">
 				<div className="content">

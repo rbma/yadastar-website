@@ -10,8 +10,6 @@ const SubHeader = React.createClass({
 
 	render: function(){
 
-		console.log(this.props.currentData);
-
 		if (!this.props.currentData){
 			return null;
 		}

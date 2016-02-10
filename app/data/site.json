@@ -2,7 +2,6 @@
 	"languages": [
 		{
 			"name": "english",
-			"file": "data/english.md",
 			"intro": "There are certain moments in life when sudden inspiration strikes, the unheard of is spoken out loud, and the inexplicable is understood. Such experiences can divide lives into a ‘before’ and ‘after’. Yadastar have been exploring these very moments since 1998.",
 			"brand": {
 				"title": "Yadastar Brand Consulting:",
@@ -21,6 +20,9 @@
 						"name": "Daimler"
 					},
 					{
+						"name": "Deutsche Luft und Raumfahrt Gesellschaft"
+					},
+					{
 						"name": "Ford"
 					},
 					{
@@ -33,6 +35,42 @@
 			"postbody": "Technicalities aside, these <strong>seventeen</strong> years have sparked countless magic moments for those who are now considered to be shaping the cultural landscape of our times.",
 			"outro": "We believe that the trigger for these unique moments can be found within every good brand.",
 			"contact": "We belive in true encounters."
+		},
+		{
+			"name": "french",
+			"intro": "Il y a des moments dans la vie où certaines inspirations nous pénètrent, le non-dit est clamé, et l’inexpliqué compris. Ces expériences peuvent alors diviser les vies en un « avant » et un « après ». Yadastar explore ces précieux moments depuis 1998.",
+			"brand":{
+				"title": "Yadastar Brand Consulting",
+				"message": "À la recherche du point de rencontre unissant identité de marque et intégrité culturelle, nous avons travaillé pour",
+				"brands": [
+					{
+						"name": "Adidas"
+					},
+					{
+						"name": "Boston Consulting Group"
+					},
+					{
+						"name": "The City of Barcelona"
+					},
+					{
+						"name": "Daimler"
+					},
+					{
+						"name": "Deutsche Luft und Raumfahrt Gesellschaft"
+					},
+					{
+						"name": "Ford"
+					},
+					{
+						"name": "Levi's et T-Mobile parmi d’autres."
+					}
+				]
+			},
+			"subheader": "Cependant, nous sommes peut-être plus connus pour notre prospère consulting de marque et community marketing pour Red Bull.",
+			"body": "En 1998 Yadaster développa la Red Bull Music Academy et graduellement contribua à établir une infrastructure pour la transformation de Red Bull d'une sociéte guidée par le sport à une marque culturellement diverse, avec des racines solides dans la musique, les arts, et les médias. Depuis, Yadastar a réalisé les 15 éditions de l'Academy, organisées internationalement pour inclure ateliers locaux, scènes de festivals, studios radio, sessions d'enregistrement et des évènements dans plus de 60 pays.<br />Au delà de la programmation et de la réalisation concrète de l’Academy, de ses nombreux évènements et pivotements, Yadastar a créé des chaînes de diffusion comme la Red Bull Music Academy Radio, le site internet Red Bull Music Academy, le Podcast, et l’agenda, et assure le fonctionnement de leurs bureaux de rédaction 24 heures sur 24 et 7 jours sur 7.<br/>Yadastar est aussi responsable pour la stratégie globalisatrice de communication de la Red Bull Music Academy, par la création d’outils de communication et la coordination d’un réseau mondial d’ambassadeurs et de départements média.",
+			"postbody": "Mis à part les aspects techniques, ces quinze années ont fait étinceler d'innombrables moments magiques pour ceux qui sont désormais considérés comme les sculpteurs dl'actuel paysage culturel.",
+			"outro": "Nous croyons que le déclenchement de ces moments uniques peut être trouvé dans toute bonne marque.",
+			"contact": "Nous croyons aux véritables rencontres."
 		}
 	]
 	

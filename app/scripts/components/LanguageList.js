@@ -2,12 +2,14 @@
 
 
 import React from 'react';
+import classNames from 'classnames';
 
 
 const LanguageList = React.createClass({
 
 	propTypes: {
-		changeLanguage: React.PropTypes.func
+		changeLanguage: React.PropTypes.func,
+		language: React.PropTypes.string
 	},
 
 	_change: function(lang){
@@ -17,7 +19,42 @@ const LanguageList = React.createClass({
 	},
 
 	render: function(){
-		console.log(this.props);
+		const self = this;
+
+		if (!self.props.language){
+			return null;
+		}
+
+		let xEnglish = classNames({
+			active: self.props.language === 'english'
+		});
+		let xFrench = classNames({
+			active: self.props.language === 'french'
+		});
+		let xSpanish = classNames({
+			active: self.props.language === 'spanish'
+		});
+		let xJapanese = classNames({
+			active: self.props.language === 'japanese'
+		});
+		let xRussian = classNames({
+			active: self.props.language === 'russian'
+		});
+		let xHebrew = classNames({
+			active: self.props.language === 'hebrew'
+		});
+
+		let xGreek = classNames({
+			active: self.props.language === 'greek'
+		});
+
+		let xDeutsch = classNames({
+			active: self.props.language === 'deutsch'
+		});
+
+		
+
+
 		return (
 			<div className="wrapper1">
 				<div className="navi-left">
@@ -25,14 +62,14 @@ const LanguageList = React.createClass({
 				</div>
 				<div className="navi-right">
 					<ul>
-						<li><a onClick={this._change.bind(null, 'english')}>English</a></li>
-						<li><a onClick={this._change.bind(null, 'french')}>Français</a></li>
-						<li><a onClick={this._change.bind(null, 'spanish')}>Español</a></li>
-						<li><a onClick={this._change.bind(null, 'japanese')}>日本語</a></li>
-						<li><a onClick={this._change.bind(null, 'russian')}>Русский</a></li>
-						<li><a onClick={this._change.bind(null, 'hebrew')}>עברית</a></li>
-						<li><a onClick={this._change.bind(null, 'greek')}>ελληνικός</a></li>
-						<li><a onClick={this._change.bind(null, 'deutsch')}>Deutsch</a></li>
+						<li><a className={xEnglish} onClick={this._change.bind(null, 'english')}>English</a></li>
+						<li><a className={xFrench} onClick={this._change.bind(null, 'french')}>Français</a></li>
+						<li><a className={xSpanish} onClick={this._change.bind(null, 'spanish')}>Español</a></li>
+						<li><a className={xJapanese} onClick={this._change.bind(null, 'japanese')}>日本語</a></li>
+						<li><a className={xRussian} onClick={this._change.bind(null, 'russian')}>Русский</a></li>
+						<li><a className={xHebrew} onClick={this._change.bind(null, 'hebrew')}>עברית</a></li>
+						<li><a className={xGreek} onClick={this._change.bind(null, 'greek')}>ελληνικός</a></li>
+						<li><a className={xDeutsch} onClick={this._change.bind(null, 'deutsch')}>Deutsch</a></li>
 					</ul>
 				</div>
 			</div>
