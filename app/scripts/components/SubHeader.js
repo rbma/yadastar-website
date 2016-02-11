@@ -15,9 +15,9 @@ const SubHeader = React.createClass({
 		}
 
 		return (
-			<div className="wrapper4">
-				<div className="text-wrapper4">
-					<p>{this.props.currentData.subheader}</p>
+			<div className="subheader">
+				<div className="text-wrapper">
+					<h3>{this.props.currentData.subheader}</h3>
 				</div>
 			</div>
 		);

@@ -23,7 +23,8 @@ const Home = React.createClass({
 	propTypes: {
 		changeLanguage: React.PropTypes.func,
 		currentData: React.PropTypes.object,
-		language: React.PropTypes.string
+		language: React.PropTypes.string,
+		siteData: React.PropTypes.object
 	},
 
 
@@ -41,10 +42,19 @@ const Home = React.createClass({
 						language={this.props.language}
 					/>
 					<Intro currentData={this.props.currentData} />
-					<BrandList currentData={this.props.currentData} />
+					<BrandList
+						currentData={this.props.currentData}
+						siteData={this.props.siteData}
+					/>
 					<SubHeader currentData={this.props.currentData} />
-					<RBMAText currentData={this.props.currentData} />
-					<PostBody currentData={this.props.currentData} />
+					<RBMAText
+						currentData={this.props.currentData}
+						siteData={this.props.siteData}
+					/>
+					<PostBody
+						currentData={this.props.currentData}
+						siteData={this.props.siteData}
+					/>
 					<Outro currentData={this.props.currentData} />
 					<Contact currentData={this.props.currentData} />
 					<Logo />

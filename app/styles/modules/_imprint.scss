@@ -5,32 +5,27 @@
 .content{
 	.wrapper-imprint{
 		position: relative;
-		margin-left: 360px;
-		width: 630px;
+		width: 100%;
 		overflow: hidden;
 		margin-bottom: 100px;
-	}
-
-	.imprint-left{
-		float: left;
-		text-align: right;
-		font-style: italic;
-		height: 100%;
-		display: inline;
-		line-height: 21px;
-		p{
-			margin: 0;
-		}
-	}
-	.imprint-right{
-		float: left;
-		width: 500px;
-		line-height: 21px;
-		padding-left: 15px;
-		height: 100%;
-		display: inline;
-		p{
-			margin: 0;
+		table{
+			tbody{
+				br{
+					line-height: 1;
+				}
+				tr{
+					padding: 10px 0;
+					td{
+						width: 50%;
+						vertical-align: top;
+						padding: 10px;
+						&.left{
+							font-style: italic;
+							text-align: right;
+						}
+					}
+				}
+			}
 		}
 	}
 }

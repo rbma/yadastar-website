@@ -2,25 +2,28 @@
 
 
 import React from 'react';
+import { Link } from 'react-router';
 
 
 const Logo = React.createClass({
 	
 	render: function(){
 		return (
-			<div className="wrapper7">
-				<div className="text-wrapper9">
-					<p>
-						YS
-						<br />
-						AT
-						<br />
-						DA
-						<br />
-						AR
-					</p>
-				</div>
-			</div>
+			<footer className="logo">
+				<Link to="/">
+					<div className="text-wrapper">
+						<p>
+							YS
+							<br />
+							AT
+							<br />
+							DA
+							<br />
+							AR
+						</p>
+					</div>
+				</Link>
+			</footer>
 		);
 	}
 });

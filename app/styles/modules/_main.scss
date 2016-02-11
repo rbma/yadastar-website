@@ -15,27 +15,33 @@
 		}
 	}
 
-	.wrapper1{
+	.languages{
 		margin: 0 auto;
 		width: 190px;
 		height: auto;
 		min-height: 170px;
+		width: 100%;
+		@include display(flex);
+		@include flex-direction(row);
+		@include align-items(flex-start);
+		@include justify-content(center);
 		.navi-left{
-			float: left;
 			font-style: italic;
 			height: 100%;
 			line-height: 20px;
 			display: inline;
 			width: 50%;
+			text-align: right;
+			padding: 10px;
 		}
 		.navi-right{
-			float: left;
 			font-style: italic;
 			line-height: 20px;
 			padding-left: 15px;
 			height: 100%;
 			display: inline;
 			width: 50%;
+			padding: 10px;
 		}
 
 		ul{
@@ -44,8 +50,8 @@
 			margin: 0;
 			padding: 0;
 			li{
-				display: list-item;
 				margin: 0;
+				list-style-type: none;
 				padding: 0;
 				outline: 0;
 				margin-right: 15px;
@@ -58,126 +64,139 @@
 		}
 	}
 
-	.wrapper2{
+	.intro{
 		margin: 0 auto;
-		width: 800px;
-		.text-wrapper2{
+		width: 80%;
+		.text-wrapper{
 			margin-top: 20px;
-			font-size: 43px;
-			line-height: 44px;
 			text-align: center;
+			h2{
+				font-weight: normal;
+			}
 		}
 	}
 
-	.wrapper3{
-		margin-left: 300px;
-		margin-top: 20px;
-		height: 220px;
+	.brands{
+		// margin-left: 300px;
+		height: auto;
+		@include display(flex);
+		@include flex-direction(row);
+		@include align-items(flex-start);
+		@include justify-content(center);
+		padding: 10px;
+		p{
+			margin: 0;
+		}
+		br{
+			line-height: 1;
+		}
 		.text-wrapper3-left{
-			float: left;
 			font-style: italic;
-			font-size: 12px;
-			line-height: 20px;
 			height: 100%;
-			display: inline;
+			width: 50%;
+			text-align: right;
+			padding-right: 10px;
 		}
 		.text-wrapper3-right{
-			float: left;
-			font-size: 12px;
-			line-height: 20px;
 			padding-left: 15px;
 			height: 100%;
-			display: inline;
-			p{
+			width: 50%;
+			text-align: left;
+			ul{
 				margin: 0;
-				width: 60%;
+				background: red;
 			}
 			li{
-				margin: auto 15px;
+				margin: auto 5px;
+				list-style-type: circle;
+				font-size: 0.75em;
+				@include mq("medium"){
+					font-size: 1em;
+				}
 			}
 		}
 	}
 
-	.wrapper4{
+	.subheader{
 		margin: auto;
-		width: 800px;
+		width: 100%;
 		height: 100%;
-		.text-wrapper4{
-			margin-top: 20px;
-			font-size: 25px;
-			line-height: 30px;
-			text-align: center;
+		.text-wrapper{
+			text-align: left;
+			@include mq("large"){
+				text-align: center;
+			}
+			
+			h3{
+				font-weight: normal;
+				line-height: 1.5;
+				margin: 0;
+				@include mq("large"){
+					line-height: 1.1;
+				}
+			}
 		}
 		.text-wrapper6{
-			margin-top: 40px;
-			font-size: 25px;
-			line-height: 30px;
 			text-align: center;
 			overflow: hidden;
 		}
 	}
 
-	.wrapper5{
-		margin-left: 450px;
-		margin-top: 20px;
+	.main-text{
+		margin: 20px auto 40px auto;
 		height: 100%;
-		.text-wrapper5{
-			line-height: 20px;
-			width: 520px;
-			height: 100%;
-		}
-		br{
-			line-height: 3;
+		@include mq("medium"){
+			margin: 20px auto 20px 50%;
 		}
 	}
 
-	.wrapper6{
+	.contact{
 		margin: 40px auto;
-		width: 420px;
-		height: 240px;
-		.text-wrapper8-left{
-			float: left;
-			font-style: italic;
-			text-align: right;
-			font-size: 12px;
-			display: inline;
+		width: 100%;
+		height: auto;
+		height: auto;
+		@include display(flex);
+		@include flex-direction(row);
+		@include align-items(flex-start);
+		@include justify-content(center);
+		.text-wrapper{
+			width: 50%;
 			height: 100%;
-			line-height: 20px;
-		}
-		.text-wrapper8-right{
-			float: left;
-			padding-left: 15px;
-			width: 300px;
-			height: 100%;
-			line-height: 20px;
-			.address{
-				p{
-					line-height: 20px;
+			padding: 10px;
+			&.left{
+				font-style: italic;
+				text-align: right;
+			}
+			&.right{
+				.address{
 					margin: 0;
 				}
-			}
-			.imprint-links{
-				margin-top: 40px;
+				.imprint-links{
+					margin-top: 40px;
+				}
 			}
 		}
 	}
 
-	.text-wrapper7{
-		margin-top: 40px;
-		font-size: 33px;
-		line-height: 34px;
+	.outro-text{
+		margin: 20px auto;
 		text-align: center;
-		p{
-			width: 50%;
-			margin: auto 25%;
+		width: 80%;
+		h2{
+			font-weight: normal;
 		}
 	}
 
-	.wrapper7{
-		margin: 40px auto;
-		width: 60px;
-		height: 180px;
-		.text-wrapper9{
+	footer{
+		margin: 60px auto;
+		width: 100%;
+		text-align: center;
+		height: auto;
+		cursor: pointer;
+		br{
+			line-height: 1;
+		}
+		.text-wrapper{
 			font-size: 43px;
 			line-height: 44px;
 		}

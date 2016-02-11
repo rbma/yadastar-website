@@ -5,7 +5,8 @@ import React from 'react';
 const BrandList = React.createClass({
 
 	propTypes: {
-		currentData: React.PropTypes.object
+		currentData: React.PropTypes.object,
+		siteData: React.PropTypes.object
 	},
 
 	render: function(){
@@ -16,13 +17,13 @@ const BrandList = React.createClass({
 
 
 		return (
-			<div className="wrapper3">
+			<div className="brands">
 				<div className="text-wrapper3-left">Yadastar Brand Consulting</div>
 				<div className="text-wrapper3-right">
 					<p>{this.props.currentData.brand.message}</p>
 					<br />
 					<div className="brand-list">
-						{this.props.currentData.brand.brands.map(function(item, index){
+						{this.props.siteData.brands.map(function(item, index){
 							return <li key={index}>{item.name}</li>
 						})}
 					</div>

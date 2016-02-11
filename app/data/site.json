@@ -1,38 +1,43 @@
 {
+	"brands": [
+		{
+			"name": "Adidas"
+		},
+		{
+			"name": "Boston Consulting Group"
+		},
+		{
+			"name": "The City of Barcelona"
+		},
+		{
+			"name": "Daimler"
+		},
+		{
+			"name": "Deutsche Luft und Raumfahrt Gesellschaft"
+		},
+		{
+			"name": "Ford"
+		},
+		{
+			"name": "Levi's"
+		},
+		{
+			"name": "T-Mobile"
+		}
+	],
+	"academyCount": 17,
+	"countries": 60,
 	"languages": [
 		{
 			"name": "english",
 			"intro": "There are certain moments in life when sudden inspiration strikes, the unheard of is spoken out loud, and the inexplicable is understood. Such experiences can divide lives into a ‘before’ and ‘after’. Yadastar have been exploring these very moments since 1998.",
 			"brand": {
 				"title": "Yadastar Brand Consulting:",
-				"message": "In search of the sweet spot uniting brand identity and cultural integrity, we have worked for",
-				"brands": [
-					{
-						"name": "Adidas"
-					},
-					{
-						"name": "Boston Consulting Group"
-					},
-					{
-						"name": "The City of Barcelona"
-					},
-					{
-						"name": "Daimler"
-					},
-					{
-						"name": "Deutsche Luft und Raumfahrt Gesellschaft"
-					},
-					{
-						"name": "Ford"
-					},
-					{
-						"name": "Levi's and T-Mobile amongst others."
-					}
-				]
+				"message": "In search of the sweet spot uniting brand identity and cultural integrity, we have worked for"
 			},
 			"subheader": "However, we are probably best known for our longstanding brand consulting, coaching and community marketing work for Red Bull.",
-			"body": "In 1998 Yadastar developed the <strong><a href='http://www.redbullmusicacademy.com'>Red Bull Music Academy</a></strong> and gradually helped build the infrastructure for Red Bull's transformation from a solely sports-driven to a culturally diverse brand with strong roots in music, arts and media. Since then, Yadastar have realised all <strong>seventeen</strong> annual editions of the Academy and have rolled it out internationally to include local workshops, festival stages, radio studios, recording sessions and signature events in more than <strong>60</strong> countries.<br/>Beyond the programming and realisation of the Academy event and its numerous spin-offs, Yadastar have created all Red Bull Music Academy content channels like <strong><a href='http://rbmaradio.com'>Red Bull Music Academy Radio</a></strong>, the Red Bull Music Academy Website, Podcast and Event Guides, and are running their 24/7 editorial offices.<br />Yadastar are also responsible for the global Red Bull Music Academy communication strategy, creation of communication tools and the co-ordination of a worldwide network of ambassadors and media departments.",
-			"postbody": "Technicalities aside, these <strong>seventeen</strong> years have sparked countless magic moments for those who are now considered to be shaping the cultural landscape of our times.",
+			"body": "In 1998 Yadastar developed the <strong><a href='http://www.redbullmusicacademy.com'>Red Bull Music Academy</a></strong> and gradually helped build the infrastructure for Red Bull's transformation from a solely sports-driven to a culturally diverse brand with strong roots in music, arts and media. Since then, Yadastar have realised all <span id='number'>seventeen</span> annual editions of the Academy and have rolled it out internationally to include local workshops, festival stages, radio studios, recording sessions and signature events in more than <span id='countries'>60</span> countries.<br/>Beyond the programming and realisation of the Academy event and its numerous spin-offs, Yadastar have created all Red Bull Music Academy content channels like <strong><a href='http://rbmaradio.com'>Red Bull Music Academy Radio</a></strong>, the Red Bull Music Academy Website, Podcast and Event Guides, and are running their 24/7 editorial offices.<br />Yadastar are also responsible for the global Red Bull Music Academy communication strategy, creation of communication tools and the co-ordination of a worldwide network of ambassadors and media departments.",
+			"postbody": "Technicalities aside, these <span id='post-number'>seventeen</span> years have sparked countless magic moments for those who are now considered to be shaping the cultural landscape of our times.",
 			"outro": "We believe that the trigger for these unique moments can be found within every good brand.",
 			"contact": "We belive in true encounters."
 		},
@@ -41,37 +46,84 @@
 			"intro": "Il y a des moments dans la vie où certaines inspirations nous pénètrent, le non-dit est clamé, et l’inexpliqué compris. Ces expériences peuvent alors diviser les vies en un « avant » et un « après ». Yadastar explore ces précieux moments depuis 1998.",
 			"brand":{
 				"title": "Yadastar Brand Consulting",
-				"message": "À la recherche du point de rencontre unissant identité de marque et intégrité culturelle, nous avons travaillé pour",
-				"brands": [
-					{
-						"name": "Adidas"
-					},
-					{
-						"name": "Boston Consulting Group"
-					},
-					{
-						"name": "The City of Barcelona"
-					},
-					{
-						"name": "Daimler"
-					},
-					{
-						"name": "Deutsche Luft und Raumfahrt Gesellschaft"
-					},
-					{
-						"name": "Ford"
-					},
-					{
-						"name": "Levi's et T-Mobile parmi d’autres."
-					}
-				]
+				"message": "À la recherche du point de rencontre unissant identité de marque et intégrité culturelle, nous avons travaillé pour"
 			},
 			"subheader": "Cependant, nous sommes peut-être plus connus pour notre prospère consulting de marque et community marketing pour Red Bull.",
-			"body": "En 1998 Yadaster développa la Red Bull Music Academy et graduellement contribua à établir une infrastructure pour la transformation de Red Bull d'une sociéte guidée par le sport à une marque culturellement diverse, avec des racines solides dans la musique, les arts, et les médias. Depuis, Yadastar a réalisé les 15 éditions de l'Academy, organisées internationalement pour inclure ateliers locaux, scènes de festivals, studios radio, sessions d'enregistrement et des évènements dans plus de 60 pays.<br />Au delà de la programmation et de la réalisation concrète de l’Academy, de ses nombreux évènements et pivotements, Yadastar a créé des chaînes de diffusion comme la Red Bull Music Academy Radio, le site internet Red Bull Music Academy, le Podcast, et l’agenda, et assure le fonctionnement de leurs bureaux de rédaction 24 heures sur 24 et 7 jours sur 7.<br/>Yadastar est aussi responsable pour la stratégie globalisatrice de communication de la Red Bull Music Academy, par la création d’outils de communication et la coordination d’un réseau mondial d’ambassadeurs et de départements média.",
-			"postbody": "Mis à part les aspects techniques, ces quinze années ont fait étinceler d'innombrables moments magiques pour ceux qui sont désormais considérés comme les sculpteurs dl'actuel paysage culturel.",
+			"body": "En 1998 Yadaster développa la <a href='http://www.redbullmusicacademy.com'>Red Bull Music Academy</a> et graduellement contribua à établir une infrastructure pour la transformation de Red Bull d'une sociéte guidée par le sport à une marque culturellement diverse, avec des racines solides dans la musique, les arts, et les médias. Depuis, Yadastar a réalisé les <span id='number'>dix-sept</span> éditions de l'Academy, organisées internationalement pour inclure ateliers locaux, scènes de festivals, studios radio, sessions d'enregistrement et des évènements dans plus de <span id='countries'>60</span> pays.<br />Au delà de la programmation et de la réalisation concrète de l’Academy, de ses nombreux évènements et pivotements, Yadastar a créé des chaînes de diffusion comme la <strong><a href='http://rbmaradio.com'>Red Bull Music Academy Radio</a></strong>, le site internet Red Bull Music Academy, le Podcast, et l’agenda, et assure le fonctionnement de leurs bureaux de rédaction 24 heures sur 24 et 7 jours sur 7.<br/>Yadastar est aussi responsable pour la stratégie globalisatrice de communication de la Red Bull Music Academy, par la création d’outils de communication et la coordination d’un réseau mondial d’ambassadeurs et de départements média.",
+			"postbody": "Mis à part les aspects techniques, ces <span id='post-number'>quinze</span> années ont fait étinceler d'innombrables moments magiques pour ceux qui sont désormais considérés comme les sculpteurs dl'actuel paysage culturel.",
 			"outro": "Nous croyons que le déclenchement de ces moments uniques peut être trouvé dans toute bonne marque.",
 			"contact": "Nous croyons aux véritables rencontres."
+		},
+		{
+			"name": "spanish",
+			"intro": "En la vida, hay algunos momentos donde de repente aparece la inspiración, lo insólito se dice alto y claro, y lo inexplicable se entiende. Tales experiencias pueden significar un “antes” y un “después” en nuestras vidas. Yadastar ha estado explorando estos precisos momentos desde 1998.",
+			"brand": {
+				"title": "Yadastar Brand Consulting",
+				"message": "En la búsqueda del punto de encuentro entre la identidad de marca y la integridad cultural, hemos trabajado para"
+			},
+			"subheader": "Sin embargo, probablemente somos más conocidos por nuestra larga experiencia trabajando en brand consulting, coaching y community marketing para Red Bull.",
+			"body": "En 1998 Yadastar desarrolló la <a href='http://www.redbullmusicacademy.com'>Red Bull Music Academy</a> y ayudó a crear la infraestructura para la transformación gradual de Red Bull, de una identidad exclusivamente relacionada con los deportes, a una marca culturalmente heterogénea, con sólidas bases en campos como la música, las artes y los medios. Desde entonces, Yadastar ha realizado las <span id='number'>diecisiete</span> ediciones anuales de la Academy, y su promoción a escala internacional mediante workshops, escenarios en festivales, estudios de radio, sesiones de grabación y otros eventos especiales en más de <span id='countries'>60</span> países.<br/>Más allá de la programación y realización del evento de la Academy y sus numerosas acciones relacionadas, Yadastar ha creado todos los canales temáticos de la Red Bull Music Academy, como la <strong><a href='http://rbmaradio.com'>Red Bull Music Academy Radio</a></strong>, la Red Bull Music Academy Website, Podcasts, Guías de Eventos, y son responsables de sus oficinas editoriales permanentes (24/7).<br/>Yadastar también es responsable de la creación de herramientas de comunicación, las estrategias de comunicación globales y la coordinación de la red mundial de embajadores y departamentos de comunicación de la Red Bull Music Academy.",
+			"postbody": "Dejando los tecnicismos aparte, durante estos <span id='post-number'>quince</span> años hemos brindado muchísimos momentos mágicos para las personas que están dando forma al paisaje cultural actual.",
+			"outro": "Creemos que la chispa que enciende estos momentos únicos puede encontrarse en cualquier buena marca.",
+			"contact": "Creemos en los encuentros de verdad."
+		},
+		{
+			"name": "japanese",
+			"intro": "人生の中で突然インスピレーションがひらめく瞬間がある。聞かれることのなかったことが話され、説明できなかったことが理解される。そんな経験は人生を“before“と“after“に分けることができる。1998年以来Yadastarはそのようなを瞬間を探求している。",
+			"brand": {
+				"title": "Yadastar ブランドコンサルティング",
+				"message": "ブランドアイデンティティとカルチュラルインテグリティ を結びつける場所を探して、私達は"
+			},
+			"subheader": "しかしながら、Red Bullへの長年のブランドコンサルティング、コーチング、コミュニティーマーケティングで私達はよく知られていることでしょう。",
+			"body": "1998年にYadastarは<a href='http://www.redbullmusicacademy.com'>Red Bull Music Academy</a> を開き、Red Bullのスポーツ主体から音楽、アート、メディアに強く根付いた文化的に多様なブランドへの変換するインフラストラクチャーを築くのに役立ちました。Red Bull Music Academy生誕から<span id='number'>１５</span>年目になりますが、これまでにYadastarは、世界60カ国以上でイベント、ローカル・ワークショップ、フェスティバル・ステージ、ラジオ・ステージ、レコーディング・セッションやシグネチャー・イベントなどのコンテンツを開催、実施してきました。アカデミーのイベントのプログラム作成、現実化と多数のスピンオフを超えて、 Yadastarは<a href='http://www.rbmaradio.com/'>Red Bull Music Academy Radio</a>、Red Bull Music Academy　ウエブサイト、ポッドキャスト、イベントガイドといったアカデミーの全コンテントチャネルを作り出し、24時間態勢で編集室を運営しています。 <br/>また、Yadastarはアカデミーの世界的なコミュニケーション戦略、コミュニケーションツールの創造、世界中に広がったアンバサダーとメディア部署とのコーディネートをも担っています。",
+			"postbody": "この過去<span id='post-number'>15</span>年間のRBMAの活動が、カルチャーの将来を担う若い世代に無数の素晴らしい瞬間をさずけてきたと信じています。",
+			"outro": "私達はこのようにユニークな瞬間のきっかけは、全てのブランドの中に見いだせると信じています。",
+			"contact": "ミュンヘンオフィス"
+		},
+		{
+			"name": "russian",
+			"intro": "Бесспорно в жизни бывают моменты, когда вдохновение внезапно обрушивается на тебя, когда несказанное выкрикивается, а необъяснимое становится понятным. Такие события делят жизнь на «до» и «после». Yadastar исследует подобные мгновения с 1998 года.",
+			"brand": {
+				"title": "Yadastar Brand Consulting",
+				"message": "В поисках компромисса между индивидуальностью бренда и культурной целостностью, мы работали для таких компаний, как"
+			},
+			"subheader": "Однако, скорее всего мы известны благодаря построению бренда, тренингам и маркетинговой работе для Red Bull.",
+			"body": "В 1998 году Yadastar основали <a href='http://www.redbullmusicacademy.com'>Red Bull Music Academy</a>и помогали постепенно трансформировать восприятие бренда Red Bull из исключительно спортивного напитка в мультикультурный бренд с крепкими корнями в музыке, искусстве и СМИ. С того времени Yadastar разработали все <span id='number'>15</span> ежегодных проектов Академии и запустили их во всем мире, включая организацию семинаров и фестивалей, радиоэфиры, звукозапись и автограф-сессии более чем в <span id='countries'>60</span> странах. <br /> Помимо планирования и организации событий Академии, а также поиска дополнительных доходов, Yadastar создали все информационные каналы Red Bull Music Academy: <a href='http://www.rbmaradio.com'>Red Bull Music Academy</a> Radio, веб-сайт, подкаст, путеводители по вечеринкам. Редакции изданий поддерживают эти проекты круглосуточно.<br/>Yadastar также отвечает за стратегию международных отношений Red Bull Music Academy и координацию работы мировой сети представительств и медиа-филиалов.",
+			"postbody": "Если отбросить технические особенности, эти <span id='post-number'>15</span> лет мы рождаем бесконечные волшебные мгновения для тех, кто сегодня формирует современный культурный ландшафт.",
+			"outro": "Мы верим, что сила этих уникальных и эмоциональных моментов может найти применение в рамках любого хорошего бренда.",
+			"contact": "Мы верим в судьбоносные встречи."
+		}
+	],
+	"imprint": [
+		{
+			"title": "Imprint:",
+			"row":"Yadastar GmbH<br />Boisseréestr. 9-11<br />50674 Köln, Germany"
+		},
+		{
+			"title": "Represented By:",
+			"row":"Many Ameri<br/>Torsten Schmidt<br/><br/>T  +49 221 355053-0<br/>F  +49 221 355053-50</br><span id='email'>info@yadastar.com</span>"
+		},
+		{
+			"title": "Registered At:",
+			"row": "Handelsregister Amtsgericht Köln<br/>HRB 77307<br/>VAT ID: DE 260423003"
+		},
+		{
+			"title": "Disclaimer:",
+			"row": "Haftung für Inhalte<br/><br/>Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.<br/><br/>Haftung für Links<br/><br/>Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.<br/><br/>Urheberrecht<br/><br/>Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet. Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.<br/><br/>Quellen: Disclaimer von eRecht24, dem Portal zum Internetrecht von Rechtsanwalt Sören Siebert"
+		}
+	],
+	"datenschutz": [
+		{
+			"title": "Yadastar GmbH",
+			"row": "Datenschutzerklärung"
+		},
+		{
+			"title": "Datenschutz",
+			"row": "Die Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Daten möglich. Soweit auf unseren Seiten personenbezogene Daten (beispielsweise Name, Anschrift oder eMail-Adressen) erhoben werden, erfolgt dies, soweit möglich, stets auf freiwilliger Basis. Diese Daten werden ohne Ihre ausdrückliche Zustimmung nicht an Dritte weitergegeben.<br/><br/>Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich.<br/><br/>Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten durch Dritte zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit ausdrücklich widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-Mails, vor."
+		},
+		{
+			"title": "Datenschutzerklärung für die Nutzung von Google Analytics",
+			"row": "Diese Website benutzt Google Analytics, einen Webanalysedienst der Google Inc. ('Google'). Google Analytics verwendet sog. 'Cookies', Textdateien, die auf Ihrem Computer gespeichert werden und die eine Analyse der Benutzung der Website durch Sie ermöglichen. Die durch den Cookie erzeugten Informationen über Ihre Benutzung dieser Website werden in der Regel an einen Server von Google in den USA übertragen und dort gespeichert. Im Falle der Aktivierung der IP-Anonymisierung auf dieser Webseite wird Ihre IP-Adresse von Google jedoch innerhalb von Mitgliedstaaten der Europäischen Union oder in anderen Vertragsstaaten des Abkommens über den Europäischen Wirtschaftsraum zuvor gekürzt.<br/><br/>Nur in Ausnahmefällen wird die volle IP-Adresse an einen Server von Google in den USA übertragen und dort gekürzt. Im Auftrag des Betreibers dieser Website wird Google diese Informationen benutzen, um Ihre Nutzung der Website auszuwerten, um Reports über die Websiteaktivitäten zusammenzustellen und um weitere mit der Websitenutzung und der Internetnutzung verbundene Dienstleistungen gegenüber dem Websitebetreiber zu erbringen. Die im Rahmen von Google Analytics von Ihrem Browser übermittelte IP-Adresse wird nicht mit anderen Daten von Google zusammengeführt.<br/><br/>Sie können die Speicherung der Cookies durch eine entsprechende Einstellung Ihrer Browser-Software verhindern; wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen dieser Website vollumfänglich werden nutzen können. Sie können darüber hinaus die Erfassung der durch das Cookie erzeugten und auf Ihre Nutzung der Website bezogenen Daten (inkl. Ihrer IP-Adresse) an Google sowie die Verarbeitung dieser Daten durch Google verhindern, indem sie das unter dem folgenden Link verfügbare Browser-Plugin herunterladen und installieren: <strong><a href='https://tools.google.com/dlpage/gaoptout?hl=en'>https://tools.google.com/dlpage/gaoptout</a></strong>."
 		}
 	]
-	
 }

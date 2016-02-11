@@ -15,8 +15,8 @@ const Outro = React.createClass({
 		}
 
 		return (
-			<div className="text-wrapper7">
-				<p>{this.props.currentData.outro}</p>
+			<div className="outro-text">
+				<h2>{this.props.currentData.outro}</h2>
 			</div>
 		);
 

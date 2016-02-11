@@ -346,7 +346,7 @@ gulp.task('rev-replace', ['rev'], function(){
 // -------------------------------------------------
 gulp.task('s3', function(){
 
-    var aws = JSON.parse(fs.readFileSync('./aws.json'));
+    var aws = JSON.parse(fs.readFileSync('./env.json'));
 
     gulp.src('./build/**')
         .pipe(s3(aws));

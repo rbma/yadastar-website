@@ -18,12 +18,12 @@ const Contact = React.createClass({
 		}
 
 		return (
-			<div className="wrapper6">
-				<div className="text-wrapper8-left">
+			<div className="contact">
+				<div className="text-wrapper left">
 					<p>Contact:</p>
 					<p>Office Cologne:</p>
 				</div>
-				<div className="text-wrapper8-right">
+				<div className="text-wrapper right">
 					<p>{this.props.currentData.contact}</p>
 					<div className="address">
 						<p>Yadastar GmbH</p>

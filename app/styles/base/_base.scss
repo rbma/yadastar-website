@@ -16,24 +16,31 @@ div{
 }
 
 ::selection{
-	background-color: rgba(0,255,0,1);
-	color: rgba(255,0,150,1);
+	background-color: $highlight1;
+	color: $highlight2;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 body{
 	margin: 0;
 	padding: 0;
+	overflow-x: hidden;
 	
 }
 
 
-.container{
-	width: 100%;
-	height: 100%;
-}
 
 .center{
 	margin: 0 auto;
-	width: 1000px;
+	width: 90%;
 	overflow: hidden;
+	@include mq("medium"){
+		width: 85%;
+	}
+	@include mq("large"){
+		width: 70%;
+	}
 }

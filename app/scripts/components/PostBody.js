@@ -6,13 +6,34 @@ import React from 'react';
 const PostBody = React.createClass({
 
 	propTypes: {
-		currentData: React.PropTypes.object
+		currentData: React.PropTypes.object,
+		siteData: React.PropTypes.object
 	},
 
 	_rawMarkup: function(){
 		return {
 			__html: this.props.currentData.postbody
 		};
+	},
+
+	componentDidMount: function(){
+		const year = document.getElementById('post-number');
+
+		if (year){
+			year.innerHTML = '<strong>' + this.props.siteData.academyCount + '</strong>';
+		}
+	},
+
+	componentDidUpdate: function(oldProps){
+
+		if (oldProps.currentData !== this.props.currentData){
+			const year = document.getElementById('post-number');
+			console.log(year);
+
+			if (year){
+				year.innerHTML = '<strong>' + this.props.siteData.academyCount + '</strong>';
+			}
+		}
 	},
 
 	render: function(){
@@ -22,8 +43,9 @@ const PostBody = React.createClass({
 		}
 
 		return (
-			<div className="wrapper4">
-				<div className="text-wrapper6" dangerouslySetInnerHTML={this._rawMarkup()}>
+			<div className="subheader">
+				<div className="text-wrapper">
+					<h3 dangerouslySetInnerHTML={this._rawMarkup()}></h3>
 				</div>
 			</div>
 		);

@@ -17,9 +17,9 @@ const Intro = React.createClass({
 		}
 
 		return (
-			<div className="wrapper2">
-				<div className="text-wrapper2">
-					{this.props.currentData.intro}
+			<div className="intro">
+				<div className="text-wrapper">
+					<h2>{this.props.currentData.intro}</h2>
 				</div>
 			</div>
 		);

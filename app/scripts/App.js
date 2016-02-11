@@ -17,6 +17,7 @@ const App = React.createClass({
 		return {
 			siteData: null,
 			currentData: null,
+			brands: null,
 			language: 'english'
 		}
 	},
@@ -137,7 +138,8 @@ const App = React.createClass({
 				{this.props.children && React.cloneElement(this.props.children, {
 					currentData: this.state.currentData,
 					changeLanguage: this._changeLanguage,
-					language: this.state.language
+					language: this.state.language,
+					siteData: this.state.siteData
 				})}
 			</section>
 		);

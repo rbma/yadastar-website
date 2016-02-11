@@ -56,7 +56,7 @@ const LanguageList = React.createClass({
 
 
 		return (
-			<div className="wrapper1">
+			<div className="languages">
 				<div className="navi-left">
 					Please choose:
 				</div>
@@ -67,9 +67,6 @@ const LanguageList = React.createClass({
 						<li><a className={xSpanish} onClick={this._change.bind(null, 'spanish')}>Español</a></li>
 						<li><a className={xJapanese} onClick={this._change.bind(null, 'japanese')}>日本語</a></li>
 						<li><a className={xRussian} onClick={this._change.bind(null, 'russian')}>Русский</a></li>
-						<li><a className={xHebrew} onClick={this._change.bind(null, 'hebrew')}>עברית</a></li>
-						<li><a className={xGreek} onClick={this._change.bind(null, 'greek')}>ελληνικός</a></li>
-						<li><a className={xDeutsch} onClick={this._change.bind(null, 'deutsch')}>Deutsch</a></li>
 					</ul>
 				</div>
 			</div>
