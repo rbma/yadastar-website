@@ -6,6 +6,7 @@ import { Link } from 'react-router';
 
 
 const Logo = React.createClass({
+
 	
 	render: function(){
 		return (

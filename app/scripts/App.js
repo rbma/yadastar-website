@@ -149,7 +149,7 @@ const App = React.createClass({
 		});
 
 		return (
-			<section className={cx}>
+			<section className={cx} id="container">
 				
 				{this.props.children && React.cloneElement(this.props.children, {
 					currentData: this.state.currentData,
