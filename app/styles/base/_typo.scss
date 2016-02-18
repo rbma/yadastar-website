@@ -4,7 +4,7 @@
 // 
 // -------------------------------------------------
 body{
-	font-size: 15px;
+	font-size: 18px;
 	font-family: 'Times New Roman', Times, serif;
 	line-height: 1.5;
 	cursor: url(../images/cursor-default-small.png), auto;
@@ -16,6 +16,7 @@ body{
 	a{
 		color: inherit;
 		cursor: url(../images/cursor-pointer-small.png), pointer;
+
 		&:hover{
 			background: $highlight1;
 			color: $highlight2;

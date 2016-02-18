@@ -5,8 +5,8 @@
 //
 
 import React from 'react';
-import $ from 'jquery';
 import _ from 'lodash';
+import classNames from 'classnames';
 
 import Header from './components/Header';
 
@@ -18,12 +18,9 @@ const App = React.createClass({
 			siteData: null,
 			currentData: null,
 			brands: null,
-			language: 'english'
+			language: 'english',
+			invert: Math.random()
 		}
-	},
-
-	_parseMarkdown: function(){
-
 	},
 
 	// ------------------------------------------------
@@ -35,20 +32,14 @@ const App = React.createClass({
 
 
 		let targetPos = _.findIndex(self.state.siteData.languages, function(o){
-			console.log(o.name);
-			return o.name == lang;
-			// return o.name === lang;
+			return o.name === lang;
 		});
-
-		console.log('TARGET', targetPos);
 
 		let newData = self.state.siteData.languages[targetPos];
 
 		this.setState({
 			currentData: newData
 		});
-
-		console.log(this.state);
 	},
 
 	_changeLanguage: function(lang){
@@ -96,24 +87,35 @@ const App = React.createClass({
 
 
 	_fetch: function(){
-		
+
 		const self = this;
 
-		$.ajax({
-			url: 'data/site.json',
-			type: 'GET',
-			success: function(data){
-				self.setState({
-					siteData: data
-				}, function(){
-					self._fetchLanguage(self.state.language);
-				});
-				
-			},
-			error: function(err){
-				console.log(err);
+		function setData(data){
+			self.setState({
+				siteData: data
+			}, function(){
+				self._fetchLanguage(self.state.language);
+			});
+		}
+
+		let request = new XMLHttpRequest();
+		request.open('GET', 'data/site.json', true);
+
+		request.onload = function(){
+			if (request.status >= 200 && request.status < 400){
+				setData(JSON.parse(request.responseText));
 			}
-		});
+			else{
+				console.log('FETCH ERROR');
+			}
+		};
+
+		request.onerror = function(){
+			console.log('FETCH ERROR');
+		};
+
+		request.send();
+
 	},
 
 
@@ -128,9 +130,26 @@ const App = React.createClass({
 		this._fetch();
 	},
 
+
+
+	// ------------------------------------------------
+	// Render
+	//
+	
 	render: function(){
+
+		let invert = false;
+		if (this.state.invert < 0.5){
+			invert = true;
+		}
+
+		let cx = classNames({
+			container: true,
+			invert: invert
+		});
+
 		return (
-			<section className="container">
+			<section className={cx}>
 				
 				{this.props.children && React.cloneElement(this.props.children, {
 					currentData: this.state.currentData,

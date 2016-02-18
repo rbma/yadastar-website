@@ -14,7 +14,6 @@ const LanguageList = React.createClass({
 
 	_change: function(lang){
 		//alert(lang);
-		console.log(lang);
 		this.props.changeLanguage(lang);
 	},
 

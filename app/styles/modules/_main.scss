@@ -56,10 +56,19 @@
 				padding: 0;
 				outline: 0;
 				margin-right: 15px;
+				@include transition(all 0.2s linear);
+				&:hover{
+					@include transform(translateX(10px));
+				}
 				a{
+					&:hover{
+						color: inherit;
+						background: inherit;
+					}
 					&.active{
 						font-weight: bold;
 					}
+
 				}
 			}
 		}
@@ -145,8 +154,17 @@
 	.main-text{
 		margin: 20px auto 40px auto;
 		height: 100%;
+
 		@include mq("medium"){
 			margin: 20px auto 20px 50%;
+		}
+		a{
+			display: inline-block;
+			&:hover{
+				background: transparent;
+				@include animation(shake 0.2s linear infinite alternate-reverse);
+			}
+
 		}
 	}
 
@@ -173,6 +191,14 @@
 				}
 				.imprint-links{
 					margin-top: 40px;
+					a{
+						display: inline-block;
+						&:hover{
+							background: transparent;
+							@include animation(shake 0.1s linear infinite alternate-reverse);
+						}
+
+					}
 				}
 			}
 		}
@@ -199,6 +225,13 @@
 		.text-wrapper{
 			font-size: 43px;
 			line-height: 44px;
+			width: 20%;
+			margin: 0 40%;
+			text-align: center;
+			@include transition(all 0.4s linear);
+			&:hover{
+				@include transform(scale(1.5));
+			}
 		}
 	}
 }
