@@ -7,14 +7,15 @@ body{
 	font-size: 15px;
 	font-family: 'Times New Roman', Times, serif;
 	line-height: 1.5;
-	cursor: url(../images/cursor-default.png), auto;
+	cursor: url(../images/cursor-default-small.png), auto;
 	//-webkit-font-smoothing: antialiased;
 	&.jp{
 		font-family: Kozuka Mincho Pro Acro, Times New Roman, Times, serif;
 	}
 
 	a{
-		cursor: url(../images/cursor-pointer.png), pointer;
+		color: inherit;
+		cursor: url(../images/cursor-pointer-small.png), pointer;
 		&:hover{
 			background: $highlight1;
 			color: $highlight2;

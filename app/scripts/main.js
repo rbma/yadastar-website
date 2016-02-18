@@ -12,8 +12,10 @@ import Home from './components/Home';
 import Imprint from './components/Imprint';
 import Datenschutz from './components/Datenschutz';
 
+import createBrowserHistory from 'history/lib/createBrowserHistory';
+
 ReactDOM.render(
-	<Router onUpdate={() => window.scrollTo(0, 0)} history={browserHistory} >
+	<Router onUpdate={() => window.scrollTo(0, 0)} history={createBrowserHistory()} >
 		<Route component={App}>
 			<Route path="/" component={Home} />
 			<Route path="imprint" component={Imprint} />

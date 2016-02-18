@@ -126,9 +126,6 @@ const App = React.createClass({
 	componentDidMount: function(){
 		
 		this._fetch();
-
-
-		
 	},
 
 	render: function(){
