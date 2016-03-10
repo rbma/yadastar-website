@@ -62,6 +62,7 @@ const LanguageList = React.createClass({
 				<div className="navi-right">
 					<ul>
 						<li><a className={xEnglish} onClick={this._change.bind(null, 'english')}>English</a></li>
+						<li><a className={xDeutsch} onClick={this._change.bind(null, 'deutsch')}>Deutsch</a></li>
 						<li><a className={xFrench} onClick={this._change.bind(null, 'french')}>Français</a></li>
 						<li><a className={xSpanish} onClick={this._change.bind(null, 'spanish')}>Español</a></li>
 						<li><a className={xJapanese} onClick={this._change.bind(null, 'japanese')}>日本語</a></li>

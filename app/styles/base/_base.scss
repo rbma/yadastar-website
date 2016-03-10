@@ -32,11 +32,11 @@ body{
 
 
 .container{
-	background: white;
-	color: black;
+	background: $background;
+	color: $text;
 	&.invert{
-		color: white;
-		background: black;
+		color: $background;
+		background: $text;
 	}
 }
 .center{

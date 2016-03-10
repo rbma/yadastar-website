@@ -35,7 +35,6 @@ const Imprint = React.createClass({
 						<table>
 							<tbody>
 								{this.props.siteData.imprint.map(function(item, index){
-									console.log(item);
 									return <TableData key={index} itemData={item} />
 								})}
 							</tbody>

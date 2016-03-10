@@ -28,7 +28,6 @@ const PostBody = React.createClass({
 
 		if (oldProps.currentData !== this.props.currentData){
 			const year = document.getElementById('post-number');
-			console.log(year);
 
 			if (year){
 				year.innerHTML = '<strong>' + this.props.siteData.academyCount + '</strong>';
